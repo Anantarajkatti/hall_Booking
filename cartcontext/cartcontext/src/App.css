@@ -1,0 +1,11 @@
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.products{
+  width: 633px;
+    border: 2px solid black;
+    background-color: #eae7db;
+    padding: 10px;
+}
