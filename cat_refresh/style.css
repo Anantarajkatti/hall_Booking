@@ -1,0 +1,13 @@
+img{
+    width:600px;
+    height: 600px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap:100px;
+}
+button{
+    height:50px;
+}
+ 
