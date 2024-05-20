@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Function to fetch and display a random duck image
     function fetchRandomDuck() {
-        fetch('https://random-d.uk/api/v2/random')
+        fetch('https://cors-anywhere.herokuapp.com/https://random-d.uk/api/v2/random')
             .then(response => response.json())
             .then(data => {
                 const duckImage = document.createElement('img');
