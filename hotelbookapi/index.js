@@ -1,14 +1,3 @@
-// // const express=require('express')
-// import express from 'express';
-// const app=express()
-// const port=7000;
-
-// app.get('/',(req,res)=>{
-//     res.send('hello world , there are lot of good people ')
-// })
-// console.log("server is runnong on port ",port)
-// app.listen(port)
-
 const express = require('express');
 const bodyParser = require('body-parser');
 
@@ -16,7 +5,7 @@ const app = express();
 app.use(bodyParser.json());
 /*
 
-Postman documentation url - https://documenter.getpostman.com/view/27867831/2s93zE1ysM
+Postman documentation url - https://documenter.getpostman.com/view/34631771/2sA3XMi3CA
 
 */
 //creating variables for storing data
